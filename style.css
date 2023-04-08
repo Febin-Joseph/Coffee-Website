@@ -105,9 +105,6 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.slider span:hover img {
-  transform: translateY(-10%) scale(6.1);
-}
 
 /* slider Styles Ends */
 
