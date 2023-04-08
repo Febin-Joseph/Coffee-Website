@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Coffee Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="Shortcut Icon" type="image/png" href="./assets/logo.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <!-- header starts -->
+
+  <div class="container">
+    <div class="header">
+      <h1 class="font">Wake Up and Smell Our Coffee!
+        Fuel Your Day With Our Coffee.</h1>
+      <h2 class="about">"Great coffee is more than just a beverage - it's a moment of bliss. We strive to make every cup
+        an experience, crafted with care and served with a smile. At our coffee shop, we believe that the perfect cup of
+        coffee has the power to
+        transform your day and brighten your world. So come on in, take a sip, and let the magic begin".</h2>
+    </div>
+    <div class="row">
+      <div class="slider">
+        <span style="--i:1;"><img src="./assets/turning-cup(1).png" alt="card1"></span>
+        <span style="--i:2;"><img src="./assets/turning-cup(1).png" alt="card2"></span>
+        <span style="--i:3;"><img src="./assets/turning-cup(2).png" alt="card3"></span>
+        <span style="--i:4;"><img src="./assets/turning-cup(3).png" alt="card4"></span>
+        <span style="--i:5;"><img src="./assets/turning-cup(4).png" alt="card5"></span>
+        <span style="--i:6;"><img src="./assets/turning-cup(1).png" alt="card6"></span>
+        <span style="--i:7;"><img src="./assets/turning-cup(1).png" alt="card7"></span>
+        <span style="--i:8;"><img src="./assets/turning-cup(1).png" alt="card8"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- header Ends  -->
+
+  <!-- Image Spaces Starts -->
+  <div class="image-spaces">
+    <img src="./assets/jug.png" class="rotate-img" id="rotating-image">
+    <img src="./assets/serving-tea(1).png" class="servingtea" id="serving-tea">
+    <img src="./assets/freecup.png" class="teacup" id="freecup">
+  </div>
+
+  <!-- Image Spaces Ends -->
+
+  <!-- Badge Starts -->
+
+  <div class="badge">
+    <div class="text-wrapper">
+      <h1>SPONSORS&nbsp</h1>
+      <h1>SPONSORS &nbsp</h1>
+      <h1>SPONSORS&nbsp</h1>
+      <h1>SPONSORS&nbsp</h1>
+    </div>
+  </div>
+
+  <!-- Badge Ends -->
+
+  <!-- background image Starts-->
+
+  <div class="video-container"></div>
+
+  <!-- background image Ends-->
+
+  <!-- products starts -->
+
+  <div class="pro-container">
+    <div class="proheading">
+      <h1>Todays Special</h1>
+    </div>
+    <div class="products-container">
+      <div class="products">
+        <div class="proprice">
+          <h6 class="price">Price RS.188</h6>
+        </div>
+        <div class="product-info">
+          <div class="product-title">Mocha Coffee</div>
+          <div class="product-details">ly dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, </div>
+        </div>
+        <img src="./assets/servered-tea.png" alt="product 1">
+      </div>
+      <div class="products">
+        <div class="proprice">
+          <h6 class="price">Price RS.188</h6>
+        </div>
+        <div class="product-info">
+          <div class="product-title">Mocha Coffee</div>
+          <div class="product-details">ly dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, </div>
+        </div>
+        <img src="./assets/servered-tea.png" alt="product 2">
+      </div>
+      <div class="products">
+        <div class="proprice">
+          <h6 class="price">Price RS.188</h6>
+        </div>
+        <div class="product-info">
+          <div class="product-title">Mocha Coffee</div>
+          <div class="product-details">ly dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, </div>
+        </div>
+        <img src="./assets/servered-tea.png" alt="product 3">
+      </div>
+      <div class="products products-center">
+        <div class="proprice">
+          <h6 class="price">Price RS.188</h6>
+        </div>
+        <div class="product-info">
+          <div class="product-title">Mocha Coffee</div>
+          <div class="product-details">ly dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, </div>
+        </div>
+        <img src="./assets/servered-tea.png" alt="product 4">
+      </div>
+    </div>
+  </div>
+
+  <!-- product ends -->
+
+  <!-- contact form glassmorphism starts -->
+
+  <h1 class="reservedtea">For Reserving A Table </h1>
+  <div class="container">
+
+    <div class="card">
+      <div class="content">
+        <h2>Contact Form</h2>
+        <input type="text" placeholder="Name" class="name-input">
+        <input type="text" placeholder="Number" class="number-input">
+        <button class="btn" onclick="submit()">Submit</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".card"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 1,
+    });
+  </script>
+
+  <!-- contact form glassmorphism ends -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
