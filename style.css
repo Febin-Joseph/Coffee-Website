@@ -9,7 +9,6 @@
 body {
   background-color: #020B13;
   color: #A57A03;
-  font-family: sans-serif;
 }
 
 /* heading font starts */
@@ -27,7 +26,7 @@ body {
   border-bottom: 2px solid black;
   text-align: left;
   padding: 20px 0;
-  font-family: 'Federo', sans-serif;
+  font-family: 'Federo';
   font-size: 24px;
   font-weight: 200;
   margin-left: 60px;
@@ -35,7 +34,7 @@ body {
 }
 
 .header h1 {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Kaushan Script';
   color: #A57A03;
   padding: 10px;
   padding-bottom: 50px;
@@ -44,7 +43,7 @@ body {
 }
 
 .header .about {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script';
   font-size: 2rem;
   color: #FFDC00;
   width: 100%;
@@ -105,6 +104,9 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 
+.slider span:hover img {
+  transform: translateY(-10%) scale(6.1);
+}
 
 /* slider Styles Ends */
 
@@ -180,7 +182,7 @@ body {
   font-size: 6vw;
   font-weight: 200;
   text-transform: uppercase;
-  font-family: Bangers;
+  font-family: 'Bangers';
   margin-right: 2vw;
   animation: move-rtl 8s linear infinite;
   color: black;
@@ -242,7 +244,7 @@ body {
 .proheading h1 {
   font-size: 50px;
   color: #FAB20B;
-  font-family: Federo;
+  font-family: 'Federo';
   font-weight: 500;
 }
 
@@ -315,7 +317,7 @@ body {
 .price {
   font-size: 25px;
   font-weight: 700;
-  font-family: kaushan script;
+  font-family: 'Kaushan Script';
   color: black;
 }
 
@@ -328,7 +330,7 @@ body {
   text-align: center;
   font-size: 50px;
   color: #FAB20B;
-  font-family: Federo;
+  font-family: 'Federo';
   font-weight: 500;
   margin-top: 90px;
 }
@@ -366,7 +368,7 @@ body {
   position: absolute;
   top: 5%;
   right: 15%;
-  font-family: federo;
+  font-family: 'Federo';
   font-size: 3rem;
   color: rgba(255, 255, 255, 0.5);
   pointer-events: none;
@@ -421,7 +423,7 @@ body {
 .btn {
   transform: rotate(-90deg);
   transform-origin: left;
-  font-family: Bangers;
+  font-family: 'Bangers';
   font-size: 3rem;
   position: inherit;
 
@@ -508,7 +510,7 @@ body {
     text-align: left;
     align-items: flex-start;
     padding: 20px 0;
-    font-family: 'Federo', sans-serif;
+    font-family: 'Federo';
     font-size: 24px;
     font-weight: 200;
     margin-left: 11px;
@@ -518,7 +520,7 @@ body {
   }
 
   .header h1 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script';
     color: #A57A03;
     padding: 10px;
     padding-bottom: 75px;
@@ -528,7 +530,7 @@ body {
   }
 
   .header .about {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script';
     font-size: 2rem;
     color: #FFDC00;
     width: 55%;
